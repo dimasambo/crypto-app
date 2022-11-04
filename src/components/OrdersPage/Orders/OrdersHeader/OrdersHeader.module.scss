@@ -1,0 +1,49 @@
+thead {
+
+  tr {
+    border-bottom: 0.063rem solid #D1D5DB;
+
+    th {
+      padding: 0.938rem;
+
+      .tableHeadItem {
+        display: flex;
+        align-items: center;
+
+        & span {
+          font-family: 'Neue Montreal', Arial;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 0.75rem;
+          line-height: 1.25rem;
+
+          letter-spacing: 0.063rem;
+          text-transform: uppercase;
+
+          color: #374151;
+          padding-right: 1.125rem;
+        }
+      }
+    }
+
+    .sortedTh {
+      width: 13%;
+    }
+
+    .invoiceTh {
+      width: 21%;
+    }
+
+    .clientTh {
+      width: 18%;
+    }
+
+    .networkTh {
+      width: 10%;
+    }
+
+    .statusTh {
+      width: 12%;
+    }
+  }
+}

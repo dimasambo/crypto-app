@@ -1,0 +1,21 @@
+.collapseButton {
+  position: absolute;
+  top: 2.2rem;
+  z-index: 100;
+  transition: .4s;
+  cursor: pointer;
+  background: #E5E7EB;
+  border-radius: 6.25rem;
+  padding: 0.94rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.collapseButton.shown {
+  left: 16.9rem;
+}
+
+.collapseButton.hidden {
+  left: 0.625rem;
+}

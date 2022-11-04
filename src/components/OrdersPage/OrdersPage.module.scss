@@ -1,0 +1,43 @@
+.ordersPageWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 103rem;
+  margin: 0 auto;
+
+  & .ordersHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1.25rem;
+
+    @media screen and(max-width: 1550px) {
+      flex-direction: column;
+      align-items: start;
+    }
+
+    & .ordersTitleBox {
+      & p {
+        font-family: 'Neue Montreal', Arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6rem;
+        line-height: 100%;
+        margin-bottom: 0;
+
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+
+        color: #111827;
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+      }
+    }
+
+    & .ordersHeaderMultipleBlock {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

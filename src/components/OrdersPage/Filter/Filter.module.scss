@@ -1,0 +1,19 @@
+.filterWrapper {
+  position: relative;
+
+  .filterButtonWrapper {
+    padding: 1.125rem;
+    margin-left: 0.313rem;
+    background: #E5E7EB;
+    border-radius: 6.25rem;
+    transition: .1s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background: #D1D5DB;
+    }
+  }
+}

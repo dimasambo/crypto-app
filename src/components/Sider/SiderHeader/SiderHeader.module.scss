@@ -1,0 +1,15 @@
+.siderHeader {
+  padding: 2.813rem 1.563rem;
+  display: flex;
+  border-bottom: 0.063rem solid #E5E7EB;
+
+  & .siderHeaderBottom {
+    display: flex;
+    transform: translateY(0.188rem);
+  }
+
+  & .siderHeaderTop {
+    display: flex;
+    transform: translate(-0.313rem, -0.188rem);
+  }
+}

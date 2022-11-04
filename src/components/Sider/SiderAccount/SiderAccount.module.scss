@@ -1,0 +1,58 @@
+.siderAccount {
+  display: flex;
+  padding: 1.563rem;
+  flex-direction: column;
+
+  @media screen and(max-width: 1300px) {
+    padding: 1.563rem 1.563rem 9.375rem;
+  }
+
+  .menuDropdownItemActive {
+    display: flex;
+    align-items: center;
+
+    & .menuDropdownItemImgActive {
+      margin-right: 0.625rem;
+    }
+
+    & .accountDropdownTextBox {
+      display: flex;
+      flex-direction: column;
+      margin-right: 2.5rem;
+
+      & .accountDropdownName, & .accountDropdownEmail {
+        font-family: 'Neue Montreal', Arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 150%;
+
+        font-feature-settings: 'salt' on;
+      }
+
+      & .accountDropdownEmail {
+        color: #6B7280;
+      }
+
+      & .accountDropdownName {
+        color: #111827;
+      }
+    }
+  }
+}
+
+.menuDropdownItem {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 0.688rem !important;
+}
+
+.menuDropdownItem.selected {
+  background: #111827;
+  color: #ffffff;
+}
+
+.menuDropdownItemImg {
+  margin-right: 0.625rem;
+}

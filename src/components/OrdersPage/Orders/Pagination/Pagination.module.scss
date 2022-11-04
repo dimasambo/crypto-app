@@ -1,0 +1,39 @@
+.paginationWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.875rem 3.125rem;
+  align-items: center;
+
+  .paginationContent {
+    display: flex;
+
+    .paginationItem {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 1.438rem;
+      border-radius: 6.25rem;
+      margin: 0 0.625rem;
+      transition: .1s;
+      cursor: pointer;
+
+      &:hover {
+        background: #D1D5DB;
+      }
+    }
+
+    .activeItem {
+      background: #111827;
+      color: white;
+
+      &:hover {
+        background: #111827;
+      }
+    }
+  }
+
+  .paginationNav {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,22 @@
+.ant-picker-range {
+    background: #E5E7EB;
+    border-radius: 6.25rem;
+    padding: 1.125rem;
+    width: 18.75rem;
+    border: none;
+    margin: 0 0.31rem;
+}
+
+.ant-picker:hover, .ant-picker-focused {
+    border-color: #E5E7EB;
+    box-shadow: 0 0 0 0.125rem rgba(224, 241, 255, 0.2)
+}
+
+.ant-picker-range .ant-picker-active-bar {
+    background: #E5E7EB;
+}
+
+.ant-picker-range:focus {
+    border: none;
+    outline: none;
+}

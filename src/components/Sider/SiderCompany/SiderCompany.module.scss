@@ -1,0 +1,56 @@
+.siderCompany {
+  display: flex;
+  border-bottom: 0.063rem solid #E5E7EB;
+  padding: 1.563rem;
+  flex-direction: column;
+
+  & p {
+    font-family: 'Neue Montreal', Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+
+    letter-spacing: 0.063rem;
+    text-transform: uppercase;
+
+    color: #6B7280;
+  }
+
+  .menuDropdownItemActive {
+    display: flex;
+    align-items: center;
+
+    & .menuDropdownItemImgActive {
+      margin-right: 0.625rem;
+    }
+
+    & .menuDropdownItemTextActive {
+      font-family: 'Neue Montreal', Arial;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.938rem;
+      line-height: 110%;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+
+      color: #111827;
+    }
+  }
+}
+
+.menuDropdownItem {
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 0.688rem !important;
+}
+
+.menuDropdownItem.selected {
+  background: #111827;
+  color: #ffffff;
+}
+
+.menuDropdownItemImg {
+  margin-right: 0.625rem;
+}
